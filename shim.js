@@ -1657,6 +1657,10 @@ require.define("/shim.coffee", function (require, module, exports, __dirname, __
       cookies: function(cb) {
         if (cb == null) cb = function () {};
         cb(page.cookies);
+      },
+      close: function(cb) {
+        if (cb == null) cb = function () {};
+        cb(page.close());
       }
     });
   };
