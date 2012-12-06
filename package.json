@@ -3,14 +3,14 @@
   "name": "phantom",
   "description": "PhantomJS wrapper for Node",
   "homepage": "https://github.com/sgentle/phantomjs-node",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "repository": {
     "type": "git",
     "url": "git://github.com/sgentle/phantomjs-node.git"
   },
   "main": "phantom.js",
   "engines": {
-    "node": ">=v0.4.9"
+    "node": ">=v0.8.8"
   },
   "dependencies": {
     "dnode-protocol": "~0.2.2",
